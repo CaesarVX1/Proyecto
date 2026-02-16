@@ -9,7 +9,7 @@ const Contact = () => {
     // 📞 CONFIGURACIÓN WHATSAPP
     // ----------------------------------------------------------------------
     const PHONE_NUMBER = '34653449051'; // Reemplaza con tu número real
-    const MESSAGE = '¡Hola! He visto la cápsula del tiempo y me ha encantado ❤️. Gracias por este regalo.';
+    const MESSAGE = 'Holaa! Vi tu página y... aquí estoy';
 
     const handleWhatsAppClick = (e) => {
         e.preventDefault();
@@ -45,9 +45,7 @@ const Contact = () => {
                 </p>
             </motion.div>
 
-            <footer className="mt-20 text-sm text-gray-400 dark:text-gray-600">
-                <p>Hecho con ❤️ para ti.</p>
-            </footer>
+
         </section>
     );
 };

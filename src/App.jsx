@@ -27,6 +27,10 @@ function App() {
         <GiftReveal />
         <Contact />
       </main>
+
+      <footer className="py-8 text-center text-sm text-gray-400 dark:text-zinc-600 font-light tracking-wide">
+        <p>Hecho con dedicación para ti. 2026</p>
+      </footer>
     </div>
   );
 }
