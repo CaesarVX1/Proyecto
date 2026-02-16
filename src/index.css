@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply bg-paper text-gray-800 transition-colors duration-300 font-sans;
+  }
+
+  .dark body {
+    /* Updated dark mode background as requested: zinc-950 */
+    @apply bg-zinc-950 text-gray-100;
+  }
+}
+
+/* Custom Utilities */
+.glass {
+  @apply bg-white/30 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.dark .glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
