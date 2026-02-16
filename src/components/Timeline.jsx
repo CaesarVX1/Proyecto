@@ -34,13 +34,13 @@ const TimelineItem = ({ data, index }) => {
                 <div className="absolute inset-0 bg-gradient-to-r from-rose-500/5 to-orange-500/5 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 <div className="relative bg-white/10 border border-white/20 shadow-lg backdrop-blur-xl p-8 rounded-2xl hover:bg-white/15 hover:border-white/30 transition-all duration-300">
-                    <span className="text-xs font-bold text-gray-400 dark:text-white/40 uppercase tracking-[0.15em] block mb-3">
+                    <span className="text-xs font-bold text-gray-300 dark:text-gray-300 uppercase tracking-[0.15em] block mb-3">
                         {data.date}
                     </span>
-                    <h3 className="text-2xl font-semibold mb-3 text-gray-900 dark:text-white/90">
+                    <h3 className="text-2xl font-semibold mb-3 text-white dark:text-white">
                         {data.title}
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300/80 leading-relaxed font-light">
+                    <p className="text-gray-200 dark:text-gray-200 leading-relaxed font-light">
                         {data.description}
                     </p>
                 </div>

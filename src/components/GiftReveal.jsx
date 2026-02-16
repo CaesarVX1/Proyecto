@@ -38,10 +38,10 @@ const GiftReveal = () => {
                                 <Gift className="w-12 h-12 text-rose-500 dark:text-rose-200" />
                             </div>
 
-                            <p className="text-xl font-medium text-gray-800 dark:text-white tracking-[0.2em] uppercase">
+                            <p className="text-xl font-medium text-white dark:text-white tracking-[0.2em] uppercase">
                                 {gift.blurText}
                             </p>
-                            <p className="text-sm text-gray-500/80 dark:text-white/40 mt-4 tracking-wide group-hover:text-white/80 transition-colors">
+                            <p className="text-sm text-gray-300 dark:text-gray-300 mt-4 tracking-wide group-hover:text-white/80 transition-colors">
                                 Click para descubrir
                             </p>
                         </motion.div>

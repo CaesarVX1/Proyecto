@@ -29,10 +29,10 @@ const QualityCard = ({ data, index }) => {
                 </div>
 
                 <div>
-                    <h3 className="text-2xl font-semibold mb-3 text-gray-900 dark:text-white tracking-tight">
+                    <h3 className="text-2xl font-semibold mb-3 text-white dark:text-white tracking-tight">
                         {data.title}
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300/70 font-light leading-relaxed">
+                    <p className="text-gray-200 dark:text-gray-200 font-light leading-relaxed">
                         {data.description}
                     </p>
                 </div>

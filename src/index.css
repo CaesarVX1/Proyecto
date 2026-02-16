@@ -7,7 +7,7 @@
 
 @layer base {
   body {
-    @apply bg-paper text-gray-800 transition-colors duration-300 font-sans;
+    @apply bg-paper text-gray-800 transition-colors duration-300 font-sans selection:bg-rose-500 selection:text-white;
   }
 
   .dark body {
